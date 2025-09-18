@@ -11,8 +11,7 @@ from langchain_core.tools import tool
 # 配置模型
 model = ChatOpenAI(
     model="deepseek-chat",
-    base_url="your model url",
-    api_key="your api key",
+    api_key="api_key仅个人使用",
     temperature=1.3
 )
 
